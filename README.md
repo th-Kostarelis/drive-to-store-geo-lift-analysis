@@ -8,8 +8,8 @@ The initial stakeholder analysis suggested the campaign was a failure, showing a
 
 # Key Challenge: The "Mid-Season Sale" Anomaly
 While treatment and control cities showed near-perfect parallel trends during the baseline period (Weeks 1–26), the test was contaminated in Week 31.
-  1. Data Pollution: Control cities received a disproportionate influx of Mid-Season Sale ad spend (686,465 SEK vs. 376,800 SEK in treatment cities).
-  2. Impact: This artificially inflated the control group's revenue, creating a flawed baseline that made the "Drive to Store" campaign appear to lose money.
+  - Data Pollution: Control cities received a disproportionate influx of Mid-Season Sale ad spend (686,465 SEK vs. 376,800 SEK in treatment cities).
+  - Impact: This artificially inflated the control group's revenue, creating a flawed baseline that made the "Drive to Store" campaign appear to lose money.
 
 # Methodology
 To provide an honest assessment, I applied the following technical approach:
@@ -19,16 +19,16 @@ To provide an honest assessment, I applied the following technical approach:
   4. ROAS Calculation: Estimated the incremental Return on Ad Spend for the clean window.
 
 # Final Results
-  1. Flawed Initial Lift: −325,346 SEK / week.
-  2. Corrected Incremental Lift: +104,686 SEK / week.
-  3. Implied ROAS: 0.73x.
-  4. On a 4-week clean sample, the results are directional but inconclusive.
+  - Flawed Initial Lift: −325,346 SEK / week.
+  - Corrected Incremental Lift: +104,686 SEK / week.
+  - Implied ROAS: 0.73x.
+  - On a 4-week clean sample, the results are directional but inconclusive.
 
 # Repository Structure
-  1. analysis.ipynb: The complete Python technical workflow
-  2. presentation.pdf: Stakeholder-ready slides (Technical and Non-Technical).
-  3. ai_transcript.md: Full log of interactions with the AI assistant during the analysis.
-  4. data/: Contains revenue.csv and spend.csv.
+  - analysis.ipynb: The complete Python technical workflow
+  - presentation.pdf: Stakeholder-ready slides (Technical and Non-Technical).
+  - ai_transcript.md: Full log of interactions with the AI assistant during the analysis.
+  - data/: Contains revenue.csv and spend.csv.
 
 # Data Privacy & Security
 To respect the confidentiality of the [Fashion Brand] business data and adhere to data security best practices, the raw revenue.csv and spend.csv files are not included in this public repository.

@@ -32,7 +32,5 @@ To provide an honest assessment, I applied the following technical approach:
 
 # Data Privacy & Security
 To respect the confidentiality of the [Fashion Brand] business data and adhere to data security best practices, the raw revenue.csv and spend.csv files are not included in this public repository.
-
-    Reproducibility: If you are a recruiter with access to the original source files, please place them in a folder named /data in the root directory to run the analysis.ipynb notebook without path errors.
-
-    Security: A .gitignore file has been implemented to ensure sensitive datasets are not inadvertently committed to version control.
+- Reproducibility: If you want to run the code and you access to the original source files, please place them in a folder named /data in the root directory to run the analysis.ipynb notebook without path errors.
+- Security: A .gitignore file has been implemented to ensure sensitive datasets are not inadvertently committed to version control.
